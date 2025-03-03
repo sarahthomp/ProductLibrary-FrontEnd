@@ -117,6 +117,18 @@
                           "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
                         }
                       ]
+                    },
+                    {
+                      "value": "3",
+                      "offering_id": "c000995f-2049-4842-9e46-05d0d6d02808",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -442,4 +454,3 @@
     }
   ]
 }
-
