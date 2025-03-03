@@ -1,0 +1,445 @@
+{
+  "Resolution": [
+    {
+      "veryHighResolution": [
+                {
+          "source": [
+            {
+              "product_name": "Umbra-Spotlight-25cm"
+            },
+            {
+              "label": "Umbra Spotlight 25cm"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": true
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Number of Looks"
+                    },
+                    {
+                      "value": "1",
+                      "offering_id": "1a1500af-1116-4646-bce7-31bedf87251b",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "Umbra-Spotlight-35cm"
+            },
+            {
+              "label": "Umbra Spotlight 35cm"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": true
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Number of Looks"
+                    },
+                    {
+                      "value": "1",
+                      "offering_id": "12cd35c4-ee9f-4908-9757-0b2c7512684a",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "highResolution": [
+        {
+          "source": [
+            {
+              "product_name": "Umbra-Spotlight-50cm"
+            },
+            {
+              "label": "Umbra Spotlight 50cm"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": true
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Number of Looks"
+                    },
+                    {
+                      "value": "1",
+                      "offering_id": "9ad1b81b-b706-4082-a24a-e602e44ed112",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2",
+                      "offering_id": "ed30e937-8090-4d94-acf6-023fbd4cb361",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "Capella-Spotlight-50cm"
+            },
+            {
+              "label": "Capella Spotlight 50cm"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "33490c31-f62f-4c66-9bff-b6992fd1245d",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mediumResolution": [
+        {
+          "Source": [
+            {
+              "product_name": "Umbra-Spotlight-1m"
+            },
+            {
+              "label": "Umbra Spotlight 1m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": true
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Number of Looks"
+                    },
+                    {
+                      "value": "1",
+                      "offering_id": "2d8da7a2-5094-456e-abc4-bcf6410fbbe1",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2",
+                      "offering_id": "cba0d322-6fa4-4711-8abe-45193fcbcb0a",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "4",
+                      "offering_id": "3fa0a154-6d87-4840-bb59-853caefb7126",
+                      "configurations": [
+                        {
+                          "configurationsAvailable": true
+                        },
+                        {
+                          "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "Capella-Sliding-Spotlight-1m"
+            },
+            {
+              "label": "Capella Sliding Spotlight 1m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "e09f1cf0-cbb5-419a-ab02-f44065a23d00",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "Capella-Stripmap-1.2m"
+            },
+            {
+              "label": "Capella Stripmap 1.2m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "23712f7b-79a1-4068-99a7-cf2c0e3aa6df",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-Spotlight-3m"
+            },
+            {
+              "label": "RCM Spotlight 3m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "a3cce3b6-66f0-4e48-ac47-88cdfa7e1621",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-Stripmap-3m"
+            },
+            {
+              "label": "RCM Stripmap 3m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "485c385c-761d-4d31-abd5-4748c73b99ac",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-Stripmap-5m"
+            },
+            {
+              "label": "RCM Stripmap 5m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "11a2b014-3948-4e2c-bf0c-616abde78abe",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-Stripmap-9m"
+            },
+            {
+              "label": "RCM Stripmap 9m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "5d6f3283-810f-4d44-948e-1dd3b841f057",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-Stripmap-16m"
+            },
+            {
+              "label": "RCM Stripmap 16m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "b23b1bcd-9c70-47f3-8b99-1d2ecc21f032",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {
+              "product_name": "RCM-ScanSAR-30m"
+            },
+            {
+              "label": "RCM ScanSAR 30m"
+            },
+            {
+              "pricingOptions": [
+                {
+                  "pricingOptionsAvailable": false
+                },
+                {
+                  "offering_id": "72b79250-e3f0-46af-9081-0fc294c0152d",
+                  "configurations": [
+                    {
+                      "configurationsAvailable": true
+                    },
+                    {
+                      "_comment": "show configuration for selected offering (will return from offering call). Parameters should return as dictated in the configuration parameters json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
