@@ -214,8 +214,8 @@
                     }
                   ],
                   "offerings": [
-                    {"offeringsAvailable": false},
-                    {"locationRequired": false},
+                    {"offeringsAvailable": true},
+                    {"locationRequired": true},
                     {
                       "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
                     }
@@ -305,6 +305,74 @@
             {
               "configurations": [
                 {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {"name": "Airbus - Pleiades"},
+            {"value": "Pleiades"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 100,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 100,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": null,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 14,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [],
+                  "offerings": [
+                    {"offeringsAvailable": true},
+                    {"locationRequired": true},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": true},
                 {
                   "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
                 }
