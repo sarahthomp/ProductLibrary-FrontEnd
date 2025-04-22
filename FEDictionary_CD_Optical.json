@@ -1,0 +1,473 @@
+{
+  "Resolution": [
+    {
+      "veryHighResolution": [
+        {
+          "source": [
+            {"name": "Airbus - Pleaides Neo"},
+            {"value": "Pleiades-Neo"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 5,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 25,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 150,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "6 bands",
+                      "details": "Bands included are Deep Blue, Blue, Green, Red, Red edge and Near-infrared"
+                    }
+                  ],
+                  "offerings": [
+                    {"offeringsAvailable": false},
+                    {"locationRequired": false},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "source": [
+            {"name": "Maxar - 30cm"},
+            {"value": "Maxar-30cm"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 5,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 50,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 150,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "4 bands",
+                      "details": "Bands included are Blue, Green, Red, Near Infrared"
+                    },
+                    {
+                      "value": "8 bands",
+                      "details": "Bands included are Coastal Blue, Green, Yellow, Red, RedEdge. Near Infrared1, Near Infrared2. The 8 band options has an increased price point "
+                    }
+                  ],
+                  "offerings": [
+                    {"offeringsAvailable": true},
+                    {"locationRequired": true},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "highResolution": [
+        {
+          "source": [
+            {"name": "Planet - SkySat"},
+            {"value": "SkySat"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 1,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 25,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 500,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "4 bands",
+                      "details": "Bands included are Red, Green, Blue, Near Infrared"
+                    }
+                  ],
+                  "offerings": [
+                    {"offeringsAvailable": false},
+                    {"locationRequired": false},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "source": [
+            {"name": "Maxar - 50cm"},
+            {"value": "Maxar-50cm"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 5,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 50,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 500,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "4 bands",
+                      "details": "Bands included are Blue, Green, Red, Near Infrared"
+                    },
+                    {
+                      "value": "8 bands",
+                      "details": "Bands included are Coastal Blue, Green, Yellow, Red, RedEdge. Near Infrared1, Near Infrared2. The 8 band options has an increased price point "
+                    }
+                  ],
+                  "offerings": [
+                    {"offeringsAvailable": true},
+                    {"locationRequired": true},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "veryHighResolutionHD": [
+        {
+          "source": [
+            {"name": "Airbus - Pleaides Neo HD15"},
+            {"value": "Pleiades-Neo-HD15"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 5,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 25,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 150,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "3 bands",
+                      "details": "Bands included are Blue, Green, Red"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "offerings": [
+                {"offeringsAvailable": false},
+                {"locationRequired": false},
+                {
+                  "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                }
+              ]
+            },
+
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": [
+            {"name": "Maxar - 15cm"},
+            {"value": "Maxar-15cm"},
+            {"info": ""},
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 5,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 25,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": 150,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot return search results or order > 500km2 "
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 7,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {"label": "Band Options"},
+                    {
+                      "value": "4 bands",
+                      "details": "Bands included are Blue, Green, Red, Near Infrared"
+                    }
+                  ],
+                  "offerings": [
+                    {"offeringsAvailable": true},
+                    {"locationRequired": true},
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point. This can change based on whether the customer is in a high or low demand region"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {"configurationsAvailable": false},
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
