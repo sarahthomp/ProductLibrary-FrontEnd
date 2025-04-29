@@ -1,0 +1,206 @@
+{
+  "Resolution": [
+    {
+      "HighResolution": [
+        {
+          "source": [
+            {
+              "name": "Airbus - Elevation - 0.5m"
+            },
+            {
+              "value": "Elevation-50cm"
+            },
+            {
+              "info": "Airbus Elevation 0.5m, is a highly precise digital elevation model derived from Pléiades-Neo 30cm stereo and tri-stereo optical satellite imagery."
+            },
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 50,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 50,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "cannot task under this limit"
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": "",
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": ""
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 30,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                {
+                  "options": [
+                    {
+                      "label": "DEM Option"
+                    },
+                    {
+                      "value": "DSM",
+                      "details": "Output is a digital surface model. Man-made objects and vegetation are included in this model."
+                    },
+                    {
+                      "value": "DTM",
+                      "details": "Output is a digital terrain model. This is a bare earth model where man-made objects and vegetation are removed"
+                    },
+                    {
+                      "value": "DTM + DSM Bundle",
+                      "details": "Output includes both the digital terrain model and digital surface model."
+                    },
+                    {
+                      "value": "DTM + DSM + Ortho Mosaic Bundle",
+                      "details": "Output includes a digital terrain model, digital surface model and ortho-mosaic generated from the collected Pléiades-Neo imagery."
+                    }
+                  ],
+                  "offerings": [
+                    {
+                      "offeringsAvailable": true
+                    },
+                    {
+                      "locationRequired": true
+                    },
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {
+                  "configurationsAvailable": true
+                },
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        },
+      {
+      "MediumResolution": [
+        {
+          "source": [
+            {
+              "name": "Airbus Elevation 1m"
+            },
+            {
+              "value": "Elevation-1m"
+            },
+            {
+              "info": "Airbus Elevation 1m, is a highly precise digital elevation model derived from Pléiades stereo and tri-stereo optical satellite imagery."
+            },
+            {
+              "frontEndRules": [
+                {
+                  "name": "min_aoi_geometry",
+                  "value": 100,
+                  "type": "integer",
+                  "unit": "km2",
+                  "description": "cannot task under this physical geometry limit"
+                },
+                {
+                  "name": "min_aoi_billing",
+                  "value": 100,
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": "can order < this area, but cannot "
+                },
+                {
+                  "label": "max_aoi_geometry",
+                  "value": "",
+                  "type": "integer",
+                  "unit": "km2",
+                  "details": ""
+                },
+                {
+                  "label": "min_date_length",
+                  "value": 30,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to less than value "
+                },
+                {
+                  "label": "max_date_length",
+                  "value": 365,
+                  "type": "integer",
+                  "unit": "d",
+                  "details": "cannot set tasking length or interval length to greater than value"
+                }
+              ]
+            },
+            {
+              "pricingOptions": [
+                    {
+                      "label": "DEM Option"
+                    },
+                    {
+                      "value": "DSM",
+                      "details": "Output is a digital surface model. Man-made objects and vegetation are included in this model."
+                    },
+                    {
+                      "value": "DTM",
+                      "details": "Output is a digital terrain model. This is a bare earth model where man-made objects and vegetation are removed"
+                    },
+                    {
+                      "value": "DTM + DSM Bundle",
+                      "details": "Output includes both the digital terrain model and digital surface model."
+                    },
+                    {
+                      "value": "DTM + DSM + Ortho Mosaic Bundle",
+                      "details": "Output includes a digital terrain model, digital surface model and ortho-mosaic generated from the collected Pléiades imagery."
+                    }
+                  ],
+                  "offerings": [
+                    {
+                      "offeringsAvailable": true
+                    },
+                    {
+                      "locationRequired": true
+                    },
+                    {
+                      "_comment": "the offering has to be calculated using our offerings end point."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "configurations": [
+                {
+                  "configurationsAvailable": true
+                },
+                {
+                  "_comment": "show configuration for selected offering (will return from offering call). properties should be displayed as a key:value pair  with key bolded. parameters should return as dicated in the configuration parameters dictionary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }]}
